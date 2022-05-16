@@ -1,0 +1,51 @@
+### Java files ###
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Ignore IDEA directory
+.idea/*
+
+# Include the project's code style settings file
+!.idea/codeStyleSettings.xml
+
+# Include the project's dictionary
+!.idea/dictionaries/
+!.idea/dictionaries/*
+
+# File-based project format:
+*.ipr
+*.iws
+
+### Plugin-specific files: ###
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+### Maven ###
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+### Git ###
+# Don't exclude the .gitignore itself
+!.gitignore
+*.iml
